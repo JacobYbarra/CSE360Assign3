@@ -9,7 +9,7 @@ import java.util.ArrayList;
  *<p>
  *ASUID: 1213015295
  */
-public class AddingMachine 
+public class addingMachine 
 {
 	
 	protected int total;
@@ -18,7 +18,7 @@ public class AddingMachine
 	 * The Constructor method, creates the object.
 	 * Used to set the total and transactions.
 	 */
-	public AddingMachine () 
+	public addingMachine () 
 	{
 		total = 0;  // not needed - included for clarity
 		transactions.add(0);

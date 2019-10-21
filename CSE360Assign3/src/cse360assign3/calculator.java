@@ -1,7 +1,5 @@
 package cse360assign3;
 
-import cse360assign3.AddingMachine;
-
 /**
  * A Calculator built off AddingMachine,
  * adds multiply, dividing, and power functionality.
@@ -9,13 +7,13 @@ import cse360assign3.AddingMachine;
  * <p>
  * ASUID: 1213015295
  */
-public class Calculator extends AddingMachine
+public class calculator extends addingMachine
 {
     /**
      * The constructor method, creates the object.
      * Calls the parent constructor.
      */
-    public Calculator()
+    public calculator()
     {
         super();
     }
@@ -32,7 +30,8 @@ public class Calculator extends AddingMachine
     }
     /**
      * Divides an intger from the total value
-     * and stores an INTEGER value in transactions
+     * and stores an INTEGER value in transactions.
+     * If the total is divided by zero, then the result is zero.
      * @param value the integer to divide by
      */
     public void div(int value)
@@ -50,7 +49,8 @@ public class Calculator extends AddingMachine
     }
     /**
      * Raises the total to the power of an integer value
-     * and stores that value in transactions
+     * and stores that value in transactions.
+     * If the total is raised to a negative power, then the result is zero.
      * @param value the inger value to raise the power to.
      */
     public void power(int value)
