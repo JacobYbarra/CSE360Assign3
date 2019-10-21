@@ -10,6 +10,10 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#Visual Studio Code
+.settings
+.vscode
+
 # Package Files #
 *.jar
 *.war
