@@ -12,8 +12,8 @@ import java.util.ArrayList;
 public class AddingMachine 
 {
 	
-	private int total;
-	private ArrayList transactions = new ArrayList();
+	protected int total;
+	protected ArrayList transactions = new ArrayList();
 	/**
 	 * The Constructor method, creates the object.
 	 * Used to set the total and transactions.
